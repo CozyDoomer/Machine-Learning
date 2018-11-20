@@ -1,3 +1,6 @@
+*.pkl
+*.feather
 .ipynb_checkpoints/
 .kaggle/
 data/
+__pycache__/
