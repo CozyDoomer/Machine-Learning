@@ -8,6 +8,8 @@ Examples contain Code for both structured and unstructured data and are mostly f
 
 ## Most interesting competitions so far were 
 
+## Unstructured Data
+
 ### Pneumia Detection: 
 
 In this competition, you’re challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, your algorithm needs to automatically locate lung opacities on chest radiographs.
@@ -51,3 +53,31 @@ public 0.493, 60/1182
 
 Using resnet34 with fastai for multilabel-classification
 Trying resnet50 next
+
+## Structured Data
+
+### Store Item Demand Forecasting Challenge
+
+You are given 5 years of store-item sales data, and asked to predict 3 months of sales for 50 different items at 10 different stores.
+
+Dataformat: time series data
+
+Metric: Symmetric mean absolute percentage error
+
+Prediciton: regression
+
+Score: 
+public 12.61028, 44/44
+
+### Google Analytics Customer Revenue Prediction
+
+In this competition, you’re challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. 
+
+Dataformat: time series data
+
+Metric: Root Mean Squared Error
+
+Prediciton: regression
+
+Score: 
+because of a leak the score was invalidated and the competition restarted with the whole data
