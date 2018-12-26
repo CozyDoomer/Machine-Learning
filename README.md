@@ -43,10 +43,13 @@ In this competition, you will develop models capable of classifying mixed patter
 | 4 channel image | macro F1 Score | multi label classification |
 
 Score: 
-public 0.493, 60/1182
+public 0.591, 8/1732
 
-Using resnet34 with fastai for multilabel-classification
-Trying resnet50 next
+Focalloss worked way better than binary cross entropy
+
+Started with resnet34 using fastai for multilabel-classification
+resnet50 worked even better (by about 0.05 macro F1-score)
+currently testing Se-ResNext50
 
 ## Structured Data
 
