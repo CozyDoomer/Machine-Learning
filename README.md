@@ -62,7 +62,7 @@ You are given 5 years of store-item sales data, and asked to predict 3 months of
 | time series data | symmetric mean absolute percentage error | regression |
 
 Score: 
-public 12.61028, 44/44
+public 12.61028, 44/654
 
 ### Google Analytics Customer Revenue Prediction
 
