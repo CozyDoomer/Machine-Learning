@@ -1,0 +1,7 @@
+python version  : 3.7.0
+fastai version  : 1.0.20
+torch version   : 1.0.0.dev20181108
+nvidia driver   : 396.54
+torch cuda ver  : 9.2.148
+torch cuda is   : available
+torch cudnn ver : 7104
