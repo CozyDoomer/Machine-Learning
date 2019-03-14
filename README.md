@@ -10,7 +10,7 @@ Examples contain Code for both structured and unstructured data and are mostly f
 
 [Whale Identification (one-shot learning, siamese network)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/whale-identification/siamese_network_cropped.ipynb)
 
-[Protein Classification (MultilabelStratifiedShuffleSplit, resnet50)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Protein%20Detection/resnet_strat_validation.ipynb)
+[Protein Classification (Multilabel classification, resnet50)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Protein%20Detection/resnet_strat_validation.ipynb)
 
 [NLP example](https://github.com/DollofCuty/Deep-Learning/blob/master/NLP/quora-insincere-questions/fastai_text.ipynb)
 
@@ -18,7 +18,7 @@ Examples contain Code for both structured and unstructured data and are mostly f
 
 [plotting shenanigans](https://github.com/DollofCuty/Deep-Learning/blob/master/structured%20data/plotting_baseline.ipynb)
 
-[Style Transfer](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Style%20Transfer/style_transfer_fastai.ipynb)
+[Style Transfer (for fun :D )](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Style%20Transfer/style_transfer_fastai.ipynb)
 
 ## Most interesting competitions so far were 
 
