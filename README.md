@@ -6,6 +6,20 @@ I wrote everything in Python using Jupyter Notebooks in an Anaconda3 environment
 
 Examples contain Code for both structured and unstructured data and are mostly for showcasing the code because the data I used was stored locally
 
+### Some Notebooks that are somewhat cleaned (but still work in progress/recently run)
+
+[Whale Identification (one-shot learning, siamese network)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/whale-identification/siamese_network_cropped.ipynb)
+
+[Protein Classification (MultilabelStratifiedShuffleSplit, resnet50)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Protein%20Detection/resnet_strat_validation.ipynb)
+
+[NLP example](https://github.com/DollofCuty/Deep-Learning/blob/master/NLP/quora-insincere-questions/fastai_text.ipynb)
+
+[structured data example and feature engineering](https://github.com/DollofCuty/Deep-Learning/blob/master/structured%20data/Google%20Analytics%20Customer%20Revenue/Google%20Customer%20Revenue%20lgb.ipynb)
+
+[plotting shenanigans](https://github.com/DollofCuty/Deep-Learning/blob/master/structured%20data/plotting_baseline.ipynb)
+
+[Style Transfer](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured%20data/Style%20Transfer/style_transfer_fastai.ipynb)
+
 ## Most interesting competitions so far were 
 
 ## Unstructured Data
