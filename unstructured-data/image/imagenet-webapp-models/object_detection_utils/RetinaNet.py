@@ -12,6 +12,8 @@ class LateralUpsampleMerge(nn.Module):
         self.conv_lat = conv2d(ch_lat, ch, ks=1, bias=True)
 
     def forward(self, x):
+        print(self.conv_lat(self.hook.stored).shape) #torch.Size([16, 32, 13, 13])
+        print(F.interpolate(x, scale_factor=2).shape) #torch.Size([16, 32, 14, 14])
         return self.conv_lat(self.hook.stored) + F.interpolate(x, scale_factor=2)
 
 
