@@ -1,4 +1,4 @@
-# Deep Learning
+# Machine Learning
 
 This is a repo for different machine learning tasks, most of them come from Kaggle competitions.
 
