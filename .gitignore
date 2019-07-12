@@ -1,7 +1,7 @@
 *.pkl
 *.feather
 .ipynb_checkpoints/
+.vscode/
 .kaggle/
 data/
 __pycache__/
-protein-classification/
