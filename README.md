@@ -2,11 +2,11 @@
 
 This is a repo for different machine learning tasks, most of them come from Kaggle competitions.
 
-I wrote everything in Python using Jupyter Notebooks in an Anaconda3 environment.
+I wrote everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
 
 Examples contain Code for both structured and unstructured data and are mostly for showcasing the code because the data I used was stored locally.
 
-### Some Notebooks that are somewhat cleaned
+### Notebooks that are somewhat cleaned
 
 [Whale Identification (one-shot learning, siamese network)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured-data/image/whale-identification/siamese_network_cropped.ipynb)
 
@@ -61,7 +61,7 @@ In the end it turned out metric learning and siamese networks were indeed good a
 
 In this competition, you’re challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, your algorithm needs to automatically locate lung opacities on chest radiographs.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | DICOM image |  IoU | multi bounding box |
 
