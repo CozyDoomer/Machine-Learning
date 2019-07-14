@@ -2,11 +2,11 @@
 
 This is a repo for different machine learning tasks, most of them come from Kaggle competitions.
 
-I wrote everything in Python using Jupyter Notebooks in an Anaconda3 environment.
+I wrote everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
 
 Examples contain Code for both structured and unstructured data and are mostly for showcasing the code because the data I used was stored locally.
 
-### Some Notebooks that are somewhat cleaned
+### Notebooks that are somewhat cleaned
 
 [Whale Identification (one-shot learning, siamese network)](https://github.com/DollofCuty/Deep-Learning/blob/master/unstructured-data/image/whale-identification/siamese_network_cropped.ipynb)
 
@@ -28,7 +28,7 @@ Examples contain Code for both structured and unstructured data and are mostly f
 
 In this competition, you will develop models capable of classifying mixed patterns of proteins in microscope images. The Human Protein Atlas will use these models to build a tool integrated with their smart-microscopy system to identify a protein's location(s) from a high-throughput image.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | 4 channel image | macro F1 Score | multi label classification |
 
@@ -45,7 +45,7 @@ currently testing Se-ResNext50
 
 In this competition, you’re challenged to build an algorithm to identify individual whales in images. You’ll analyze Happywhale’s database of over 25,000 images, gathered from research institutions and public contributors. By contributing, you’ll help to open rich fields of understanding for marine mammal population dynamics around the globe.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | 3 channel image | Mean Average Precision @ 5 | single label classification (@ 5)|
 
@@ -61,7 +61,7 @@ In the end it turned out metric learning and siamese networks were indeed good a
 
 In this competition, you’re challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, your algorithm needs to automatically locate lung opacities on chest radiographs.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | DICOM image |  IoU | multi bounding box |
 
@@ -69,7 +69,7 @@ In this competition, you’re challenged to build an algorithm to detect a visua
 
 In this competition, you are required to locate ships in images, and put an aligned bounding box segment around the ships you locate. Many images do not contain ships, and those that do may contain multiple ships. Ships within and across images may differ in size (sometimes significantly) and be located in open sea, at docks, marinas, etc.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | 3 channel image | F2 Score | binary segmentation |
 
@@ -87,7 +87,7 @@ Definitly will keep this mistake in mind for the future
 
 You are given 5 years of store-item sales data, and asked to predict 3 months of sales for 50 different items at 10 different stores.
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | time series data | symmetric mean absolute percentage error | regression |
 
@@ -98,7 +98,7 @@ public 12.61028, 44/654
 
 In this competition, you’re challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. 
 
-| Dataformat   |      Metric      |  Prediciton |
+| Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
 | time series data | root mean squared error | regression |
 
