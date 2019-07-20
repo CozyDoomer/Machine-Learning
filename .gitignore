@@ -4,4 +4,4 @@
 .vscode/
 .kaggle/
 data/
-__pycache__/
+__pycache__/predicting-molecular-properties/
