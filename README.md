@@ -39,7 +39,6 @@ Focalloss worked way better than binary cross entropy
 
 Started with resnet34 using fastai for multilabel-classification
 resnet50 worked even better (by about 0.05 macro F1-score)
-currently testing Se-ResNext50
 
 ### Humpback Whale Identification
 
@@ -50,20 +49,27 @@ In this competition, you’re challenged to build an algorithm to identify indiv
 | 3 channel image | Mean Average Precision @ 5 | single label classification (@ 5)|
 
 Score: 
-public 0.591, 555/2131
+0.86838, 555/2131
 
 The greatest challenge for this competition was the lack of images for each label of humpback whale (1-20 different images)
 So I tried different kinds of one-shot learning algorithms like siamese networks with LAP matching of positive and negative examples.
 
 In the end it turned out metric learning and siamese networks were indeed good approaches to the problem but time was running short.
 
-### Pneumia Detection: 
+### Jigsaw Unintended Bias in Toxicity Classification: 
 
-In this competition, you’re challenged to build an algorithm to detect a visual signal for pneumonia in medical images. Specifically, your algorithm needs to automatically locate lung opacities on chest radiographs.
+In this competition, you're challenged to build a model that recognizes toxicity and minimizes this type of unintended bias with respect to mentions of identities. You'll be using a dataset labeled for identity mentions and optimizing a metric designed to measure unintended bias.
 
 | Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
-| DICOM image |  IoU | multi bounding box |
+| text |  generalized mean of bias AUCs | classification |
+
+First NLP competition I have joined and I still feel like I have to learn a lot in this space.
+
+Used [GloVe](https://nlp.stanford.edu/projects/glove/) combined with a lstm + word embedding neural network.
+
+Score:
+0.93568, 718/2646 placement
 
 ### Ship Detection Challenge:
 
@@ -74,12 +80,15 @@ In this competition, you are required to locate ships in images, and put an alig
 | 3 channel image | F2 Score | binary segmentation |
 
 Score: 
-public 0.70823, 208/884 placement
-private 0.82704, 524/884 placement
 
-Using fastai with resnet34 for image segmentation
-I tried to select a part of the train set to reduce computing time but my selection method was lacking. 
-Definitly will keep this mistake in mind for the future
+public 0.70823, 208/884 placement
+
+private 0.82704, 524/884 placement 
+
+Used fastai with resnet34 for image segmentation.
+
+Big dropoff on private test set because I tried to select a part of the train set to reduce computing time but my selection method was lacking. 
+Definitely will keep this mistake in mind for the future
 
 ## Structured Data
 
@@ -94,13 +103,21 @@ You are given 5 years of store-item sales data, and asked to predict 3 months of
 Score: 
 public 12.61028, 44/654
 
-### Google Analytics Customer Revenue Prediction
 
-In this competition, you’re challenged to analyze a Google Merchandise Store (also known as GStore, where Google swag is sold) customer dataset to predict revenue per customer. 
+### Predicting Molecular Properties
+
+### ongoing! (I will move the codebase here as soon as the competition finishes)
+
+In this competition, you will develop an algorithm that can predict the magnetic interaction between two atoms in a molecule (i.e., the scalar coupling constant).
 
 | Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
-| time series data | root mean squared error | regression |
+| structured data | log mean average error | regression |
+
+A lot of additional data that is not usable directly because it's not contained in the test set.
+Also domain knowledge about atom interaction in molecules seems really important.
+
+Solved using lightgbm and [message passing neural networks](https://arxiv.org/pdf/1704.01212.pdf)
 
 Score: 
-because of a leak the score was invalidated and the competition restarted with the whole data
+public -1.901 , 35/2050
