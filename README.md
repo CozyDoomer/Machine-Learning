@@ -121,5 +121,10 @@ Also domain knowledge about atom interaction in molecules seems really important
 
 Solved using lightgbm and a [message passing neural network](https://arxiv.org/pdf/1704.01212.pdf)
 
-Score: 
-public -2.36477 , 42/2757
+#### Score 
+__top 2%__
+
+| leaderboard   | score | placement |
+|----------|:-------------:|---------:|
+| public | -2.37190 | __43/2757__ |
+| private | -2.36477 | __42/2757__ |
