@@ -101,7 +101,7 @@ You are given 5 years of store-item sales data, and asked to predict 3 months of
 | time series data | symmetric mean absolute percentage error | regression |
 
 Score: 
-public 12.61028, 44/654
+because of a leak the competition was reset in the last few weeks and I did not have the time to submit again.
 
 
 ### Predicting Molecular Properties
