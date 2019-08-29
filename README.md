@@ -106,18 +106,20 @@ public 12.61028, 44/654
 
 ### Predicting Molecular Properties
 
-### ongoing! (I will move the codebase here as soon as the competition finishes)
+#### Codebase
+
+[seperate github repo](https://github.com/DollofCuty/Predicting-Molecular-Properties)
 
 In this competition, you will develop an algorithm that can predict the magnetic interaction between two atoms in a molecule (i.e., the scalar coupling constant).
 
 | Dataformat   |      Metric      |  Prediction |
 |----------|:-------------:|------:|
-| structured data | log mean average error | regression |
+| structured data (__graph based__) | log mean average error | regression |
 
 A lot of additional data that is not usable directly because it's not contained in the test set.
 Also domain knowledge about atom interaction in molecules seems really important.
 
-Solved using lightgbm and [message passing neural networks](https://arxiv.org/pdf/1704.01212.pdf)
+Solved using lightgbm and a [message passing neural network](https://arxiv.org/pdf/1704.01212.pdf)
 
 Score: 
-public -1.901 , 35/2050
+public -2.36477 , 42/2757
