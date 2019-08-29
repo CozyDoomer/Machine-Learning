@@ -2,7 +2,7 @@
 
 This is a repo for different machine learning tasks, most of them come from Kaggle competitions.
 
-I wrote everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
+I wrote almost everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
 
 Examples contain Code for both structured and unstructured data and are mostly for showcasing the code because the data I used was stored locally.
 
@@ -32,8 +32,8 @@ In this competition, you will develop models capable of classifying mixed patter
 |----------|:-------------:|------:|
 | 4 channel image | macro F1 Score | multi label classification |
 
-Score: 
-public 0.591, 118/2172
+#### Score 
+public 0.591, __118/2172__
 
 Focalloss worked way better than binary cross entropy
 
@@ -48,8 +48,8 @@ In this competition, you’re challenged to build an algorithm to identify indiv
 |----------|:-------------:|------:|
 | 3 channel image | Mean Average Precision @ 5 | single label classification (@ 5)|
 
-Score: 
-0.86838, 555/2131
+#### Score
+0.86838, __555/2131__
 
 The greatest challenge for this competition was the lack of images for each label of humpback whale (1-20 different images)
 So I tried different kinds of one-shot learning algorithms like siamese networks with LAP matching of positive and negative examples.
@@ -68,8 +68,8 @@ First NLP competition I have joined and I still feel like I have to learn a lot 
 
 Used [GloVe](https://nlp.stanford.edu/projects/glove/) combined with a lstm + word embedding neural network.
 
-Score:
-0.93568, 718/2646 placement
+#### Score
+0.93568, __718/2646__ placement
 
 ### Ship Detection Challenge:
 
@@ -79,11 +79,10 @@ In this competition, you are required to locate ships in images, and put an alig
 |----------|:-------------:|------:|
 | 3 channel image | F2 Score | binary segmentation |
 
-Score: 
+#### Score 
+public 0.70823, __208/884__ placement
 
-public 0.70823, 208/884 placement
-
-private 0.82704, 524/884 placement 
+private 0.82704, __524/884_ placement 
 
 Used fastai with resnet34 for image segmentation.
 
@@ -100,8 +99,8 @@ You are given 5 years of store-item sales data, and asked to predict 3 months of
 |----------|:-------------:|------:|
 | time series data | symmetric mean absolute percentage error | regression |
 
-Score: 
-because of a leak the competition was reset in the last few weeks and I did not have the time to submit again.
+#### Score
+Because of a leak the competition was reset in the last few weeks and I did not have the time to submit again.
 
 
 ### Predicting Molecular Properties
