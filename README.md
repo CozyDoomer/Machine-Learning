@@ -82,7 +82,7 @@ In this competition, you are required to locate ships in images, and put an alig
 #### Score 
 public 0.70823, __208/884__ placement
 
-private 0.82704, __524/884_ placement 
+private 0.82704, __524/884__ placement 
 
 Used fastai with resnet34 for image segmentation.
 
@@ -105,10 +105,6 @@ Because of a leak the competition was reset in the last few weeks and I did not 
 
 ### Predicting Molecular Properties
 
-#### Codebase
-
-[seperate github repo](https://github.com/DollofCuty/Predicting-Molecular-Properties)
-
 In this competition, you will develop an algorithm that can predict the magnetic interaction between two atoms in a molecule (i.e., the scalar coupling constant).
 
 | Dataformat   |      Metric      |  Prediction |
@@ -120,10 +116,17 @@ Also domain knowledge about atom interaction in molecules seems really important
 
 Solved using lightgbm and a [message passing neural network](https://arxiv.org/pdf/1704.01212.pdf)
 
+#### Codebase
+
+[seperate github repo](https://github.com/DollofCuty/Predicting-Molecular-Properties)
+
 #### Score 
+
 __top 2%__
 
 | leaderboard   | score | placement |
 |----------|:-------------:|---------:|
 | public | -2.37190 | __43/2757__ |
 | private | -2.36477 | __42/2757__ |
+
+#### this is my best finish so far 
