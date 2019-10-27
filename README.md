@@ -2,7 +2,7 @@
 
 This is a repo for different machine learning tasks, most of them come from Kaggle competitions.
 
-I wrote almost everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
+I wrote everything in Python3 using Jupyter Notebooks in an Anaconda3 environment.
 
 Examples contain Code for both structured and unstructured data and are mostly for showcasing the code because the data I used was stored locally.
 
