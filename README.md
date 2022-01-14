@@ -65,7 +65,7 @@ Most of the features were calculated using [rdkit](https://www.rdkit.org/docs/Ge
 
 average local log mae: -2.12
 
-## Placement
+#### Placement
 __top 2%__
 
 | leaderboard   | score | placement |
